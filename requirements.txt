@@ -2,3 +2,5 @@ Flask
 gunicorn
 groq
 google-generativeai
+joblib
+scikit-learn
