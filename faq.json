@@ -1,0 +1,17 @@
+[
+  { "id": 1, "category": "requirements", "question": "What are the requirements for freshman enrollment?", "answer": "Freshmen need Form 138 (Report Card), Certificate of Good Moral Character, 2x2 photo, and PSA Birth Certificate." },
+  { "id": 2, "category": "requirements", "question": "What are the requirements for transferee students?", "answer": "Transferees must submit an Honorable Dismissal, Transcript of Records (TOR), Good Moral Certificate, and PSA Birth Certificate." },
+  { "id": 3, "category": "requirements", "question": "Where do I submit my enrollment documents?", "answer": "Submit hard copies to the Registrar's Office on campus or upload digital copies via the online student portal." },
+  { "id": 4, "category": "schedule", "question": "When does enrollment for First Semester start?", "answer": "Enrollment for the First Semester opens on June 15 and runs through July 30." },
+  { "id": 5, "category": "schedule", "question": "When is the deadline for late enrollment?", "answer": "Late enrollment is allowed up to two weeks after official classes begin, subject to a late fee." },
+  { "id": 6, "category": "schedule", "question": "What are the registrar office operating hours?", "answer": "The Registrar's Office is open Monday to Friday, from 8:00 AM to 5:00 PM." },
+  { "id": 7, "category": "payment", "question": "Can I pay tuition in installments?", "answer": "Yes. Tuition can be paid in four installments: upon enrollment, prelims, midterms, and finals." },
+  { "id": 8, "category": "payment", "question": "What payment channels are accepted?", "answer": "We accept payments via GCash, Maya, Landbank online transfer, and over-the-counter cash at the Finance Office." },
+  { "id": 9, "category": "payment", "question": "How much is the initial down payment upon enrollment?", "answer": "The minimum down payment upon enrollment is PHP 3,000." },
+  { "id": 10, "category": "scholarship", "question": "What scholarships are available for incoming students?", "answer": "Bayanihan College offers Academic Honor Scholarships, Varsity Grants, and CHED UniFAST financial assistance." },
+  { "id": 11, "category": "scholarship", "question": "How can I maintain an Academic Honor Scholarship?", "answer": "Scholars must maintain a GPA of 1.75 or higher with no grade below 2.0 and no dropped subjects." },
+  { "id": 12, "category": "scholarship", "question": "Where can I apply for a scholarship?", "answer": "Apply directly through the Student Affairs and Services Office (SASO) portal before July 10." },
+  { "id": 13, "category": "registrar services", "question": "How do I request an official Transcript of Records (TOR)?", "answer": "Fill out a document request form at the Registrar portal, clear accountabilities, and pay the PHP 150 processing fee." },
+  { "id": 14, "category": "registrar services", "question": "How can I request a Certificate of Enrollment?", "answer": "Certificate requests are processed at window 2 of the Registrar Office or generated via the online portal after 2 business days." },
+  { "id": 15, "category": "registrar services", "question": "How do I drop or change a subject?", "answer": "Submit an accomplished Adding/Dropping Form signed by your Department Chair to the Registrar within the first two weeks of classes." }
+]

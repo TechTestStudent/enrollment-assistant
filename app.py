@@ -8,8 +8,11 @@ from google import genai
 app = Flask(__name__)
 
 # Load FAQ knowledge base
-with open('faq.json', 'r') as f:
-    FAQS = json.load(f)
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+FAQ_PATH = os.path.join(BASE_DIR, 'faq.json')
+
+with open(FAQ_PATH, 'r', encoding='utf-8') as f:
+    faqs = json.load(f)
 
 # Load Intent Classifier Model
 classifier = None
@@ -65,7 +68,7 @@ def chat():
     faq_context = json.dumps(top_faqs, indent=2)
     faq_ids = [faq['id'] for faq in top_faqs]
 
-    api_key = "AQ.Ab8RN6LOHfJgvhv8hnAePF9LaK7vFWwYsQzmj6LuUGmRYRWT7A"
+    api_key = os.getenv("GEMINI_API_KEY", "AQ.Ab8RN6LOHfJgvhv8hnAePF9LaK7vFWwYsQzmj6LuUGmRYRWT7A")
     if not api_key:
         return jsonify({"error": "Server missing GEMINI_API_KEY environment variable."}), 500
 
