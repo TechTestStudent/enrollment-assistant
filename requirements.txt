@@ -1,6 +1,6 @@
 Flask
 gunicorn
 groq
-google-generativeai
+google-genai
 joblib
 scikit-learn
